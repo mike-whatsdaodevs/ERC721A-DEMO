@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.4;
 
-import "erc721a/contracts/ERC721A.sol";
+import "./ERC721A.sol";
 
 contract ERC_721A_Demo is ERC721A {
     constructor() ERC721A("DEMO", "DEMO") {}
