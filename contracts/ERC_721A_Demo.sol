@@ -4,7 +4,7 @@ pragma solidity ^0.8.4;
 import "erc721a/contracts/ERC721A.sol";
 
 contract ERC_721A_Demo is ERC721A {
-    constructor() ERC721A("BoredApeNanoClub", "BYBZ") {}
+    constructor() ERC721A("DEMO", "DEMO") {}
 
     function mint(address recipient, uint256 quantity) external payable {
         // `_mint`'s second argument now takes in a `quantity`, not a `tokenId`.
